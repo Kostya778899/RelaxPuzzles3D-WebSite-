@@ -72,11 +72,11 @@ li{
 }
 .game.featur:nth-child(2) p{
 	top: 50px;
-	font-size: 140px;
+	font-size: 130px;
 }
 .game.featur:nth-child(3) p{
 	top: 69px;
-	font-size: 50px;
+	font-size: 45px;
 }
 
 .game.name{
