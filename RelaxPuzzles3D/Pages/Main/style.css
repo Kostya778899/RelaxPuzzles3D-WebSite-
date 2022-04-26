@@ -16,6 +16,20 @@ li{
 	list-style-type: none;
 }
 
+
+.background{
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	overflow: auto;
+
+	background-image: url("graphics/background.png");
+	background-repeat: repeat;
+	background-color: beige;
+}
+
 .content{
 	/*border: 5px solid blue;*/
 	margin: 40px 45px;
@@ -168,46 +182,46 @@ li{
 
 	color: #FFFFFF;
 	text-shadow: 
-		-0   -4px 2px #000000,
-		 0   -4px 2px #000000,
-		-0    4px 2px #000000,
-		 0    4px 2px #000000,
-		-4px -0   2px #000000,
-		 4px -0   2px #000000,
-		-4px  0   2px #000000,
-		 4px  0   2px #000000,
-		-1px -4px 2px #000000,
-		 1px -4px 2px #000000,
-		-1px  4px 2px #000000,
-		 1px  4px 2px #000000,
-		-4px -1px 2px #000000,
-		 4px -1px 2px #000000,
-		-4px  1px 2px #000000,
-		 4px  1px 2px #000000,
-		-2px -4px 2px #000000,
-		 2px -4px 2px #000000,
-		-2px  4px 2px #000000,
-		 2px  4px 2px #000000,
-		-4px -2px 2px #000000,
-		 4px -2px 2px #000000,
-		-4px  2px 2px #000000,
-		 4px  2px 2px #000000,
-		-3px -4px 2px #000000,
-		 3px -4px 2px #000000,
-		-3px  4px 2px #000000,
-		 3px  4px 2px #000000,
-		-4px -3px 2px #000000,
-		 4px -3px 2px #000000,
-		-4px  3px 2px #000000,
-		 4px  3px 2px #000000,
-		-4px -4px 2px #000000,
-		 4px -4px 2px #000000,
-		-4px  4px 2px #000000,
-		 4px  4px 2px #000000,
-		-4px -4px 2px #000000,
-		 4px -4px 2px #000000,
-		-4px  4px 2px #000000,
-		 4px  4px 2px #000000;
+	-0   -4px 2px #000000,
+	0   -4px 2px #000000,
+	-0    4px 2px #000000,
+	0    4px 2px #000000,
+	-4px -0   2px #000000,
+	4px -0   2px #000000,
+	-4px  0   2px #000000,
+	4px  0   2px #000000,
+	-1px -4px 2px #000000,
+	1px -4px 2px #000000,
+	-1px  4px 2px #000000,
+	1px  4px 2px #000000,
+	-4px -1px 2px #000000,
+	4px -1px 2px #000000,
+	-4px  1px 2px #000000,
+	4px  1px 2px #000000,
+	-2px -4px 2px #000000,
+	2px -4px 2px #000000,
+	-2px  4px 2px #000000,
+	2px  4px 2px #000000,
+	-4px -2px 2px #000000,
+	4px -2px 2px #000000,
+	-4px  2px 2px #000000,
+	4px  2px 2px #000000,
+	-3px -4px 2px #000000,
+	3px -4px 2px #000000,
+	-3px  4px 2px #000000,
+	3px  4px 2px #000000,
+	-4px -3px 2px #000000,
+	4px -3px 2px #000000,
+	-4px  3px 2px #000000,
+	4px  3px 2px #000000,
+	-4px -4px 2px #000000,
+	4px -4px 2px #000000,
+	-4px  4px 2px #000000,
+	4px  4px 2px #000000,
+	-4px -4px 2px #000000,
+	4px -4px 2px #000000,
+	-4px  4px 2px #000000,
+	4px  4px 2px #000000;
 }
 
 .game.screenshots{
@@ -272,24 +286,24 @@ body {
 }
 /*.swiper-slide:nth-child(1n) {
 	background-color: rgb(206, 17, 17);
-}*/
-.swiper-slide img{
-	height: 100%;
-	object-fit: cover;
-}
-/* ================= end ================= */
+	}*/
+	.swiper-slide img{
+		height: 100%;
+		object-fit: cover;
+	}
+	/* ================= end ================= */
 
 
-.game.urls{
-	--width: 100%;
+	.game.urls{
+		--width: 100%;
 
-	width: var(--width);
-	height: 300px;
+		width: var(--width);
+		height: 300px;
 
-	left: 48px;
-	top: 3077px;
-}
-.url{
+		left: 48px;
+		top: 3077px;
+	}
+	.url{
 	/*width: 100px;
 	height: 100px;*/
 	position: static;
