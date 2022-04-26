@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Home</title>
+	<link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+	<script src="script.js"></script>
+
+	<div class="content">
+		<img src="https://play-lh.googleusercontent.com/mKGsJEpaPOhUIMcUCtHnkDwvWA0UqOC8iTSBIeHrythTL_cIrptafrRtAJ1z0nAzcw=s180-rw"
+		class="game icon">
+
+		<li class="game features">
+			<div class="game featur"></div>
+			<div class="game featur"></div>
+			<div class="game featur"></div>
+			<!-- <div class="game featur"></div> -->
+		</li>
+
+		<img src="graphics/game_name.png" class="game name">
+
+		<p class="game description">Relax😌 by collecting beautiful 3D puzzles🧩.</p>
+		<button class="game show-full-description">Full description</button>
+
+		<div id="horisontal-menu" class="game stores">
+			<ul>
+				<!-- <li class="game store"><a href="/home">Google play</a></li>
+				<li class="game store"><a href="/home">AppStore</a></li>
+				<li class="game store"><a href="/blog">Huawei store</a></li> -->
+
+				<li class="game store">
+					<button class="game-store-button" onclick='openUrl("https://play.google.com/store/apps/details?id=com.KostyHub.Relaxpuzzles3D")'>
+						<img src="graphics\Google-Play.png" class="game-store-icon">
+						<p class="game-store-text">
+							Google Play
+						</p>
+					</button>
+				</li>
+
+				<li class="game store">
+					<button class="game-store-button">
+						<img src="graphics\App-Store.png" class="game-store-icon">
+						<p class="game store-not-available-text">not available</p>
+						<p class="game-store-text">
+							App Store
+						</p>
+					</button>
+				</li>
+
+				<li class="game store">
+					<button class="game-store-button">
+						<img src="graphics\AppGallery.png" class="game-store-icon">
+						<p class="game store-not-available-text">not available</p>
+						<p class="game-store-text">
+							AppGallery
+						</p>
+					</button>
+				</li>
+			</ul>
+		</div>
+
+		<!-- <div id="horisontal-menu" class="game screenshots">
+			<ul>
+				<li class="game store">
+					<button class="game-store-button">
+						<img src="graphics\Google-Play.png" class="game-store-icon">
+						<p class="game-store-text">
+							Google Play
+						</p>
+					</button>
+				</li>
+
+				<li class="game store">
+					<button class="game-store-button">
+						<img src="graphics\App-Store.png" class="game-store-icon">
+						<p class="game-store-text">
+							App Store
+						</p>
+					</button>
+				</li>
+
+				<li class="game store">
+					<button class="game-store-button">
+						<img src="graphics\AppGallery.png" class="game-store-icon">
+						<p class="game-store-text">
+							AppGallery
+						</p>
+					</button>
+				</li>
+			</ul>
+		</div> -->
+
+		<!-- ==================== Swiper ==================== -->
+		<div class="swiper mySwiper">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<img src="https://play-lh.googleusercontent.com/6eYLRVNJCpY20b9tYQPQS9DiPJJGPkLzab3alavbT_X_c5bUwzMNrjjpUc65_I20Cvs=w720-h310-rw">
+				</div>
+				<div class="swiper-slide">
+					<div class="swiper-slide">
+						<img src="https://play-lh.googleusercontent.com/EhjMw3S6Fn8Jvdev4GfTXhFHV2R2lMG9PEoA1HRGd4ijjOyXngf5NRSEDk_4DzgmuHLV=w720-h310-rw">
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<img src="https://play-lh.googleusercontent.com/0Iv2wUMcoMXFD-QG9Yu7BI2duHeH3Y_5U1_8mRpuC0cJpHxEf6OnV9KZC2hzRMFm2XFV=w720-h310-rw">
+				</div>
+				<div class="swiper-slide">
+					<img src="https://play-lh.googleusercontent.com/seMSsjnDhVG-Jz4W_VUp5BStb-Rco2jLfZx237DVf4BSQkOC0lCt6z_UoqeIsBAPrz4=w720-h310-rw">
+				</div>
+				<div class="swiper-slide">
+					<img src="https://play-lh.googleusercontent.com/p_a2x1w4TRUq1MNdXbIte5WXV7h-6LL7blJOCTi8jX5ujRjS_5ie6kUonkaGli5BzHg=w720-h310-rw">
+				</div>
+				<div class="swiper-slide">
+					<img src="https://play-lh.googleusercontent.com/JNFJg_C_cT5oc4YOvCG7x3yxzkxpvPC5zfaxMYrdTppEJHYewF4jyTDoon61-yhQjTU=w720-h310-rw">
+				</div>
+			</div>
+		</div>
+
+		<!-- Swiper JS -->
+		<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+		<!-- Initialize Swiper -->
+		<script>
+			var swiper = new Swiper(".mySwiper", {
+				effect: "cards",
+				grabCursor: true,
+			});
+		</script>
+
+		
+
+		<div id="horisontal-menu" class="game urls">
+			<ul>
+				<li class="url">
+					<button class="urls-button" onclick='openUrl("https://kwork.ru/user/login217788")'>
+						<img src="graphics\Kwork.png" class="game-store-icon" width="200px">
+						<p class="urls-text">
+							Kwork
+						</p>
+					</button>
+				</li>
+
+				<li class="game store">
+					<button class="urls-button" onclick='openUrl("https://t.me/+xA88EMfYgMA1YmYy")'>
+						<img src="graphics\Telegram.png" class="game-store-icon">
+						<p class="urls-text">
+							Telegram
+						</p>
+					</button>
+				</li>
+
+				<li class="game store">
+					<button class="urls-button" onclick='openUrl("https://github.com/Kostya778899")'>
+						<img src="graphics\GitHub.png" class="game-store-icon">
+						<p class="urls-text">
+							GitHub
+						</p>
+					</button>
+				</li>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>
