@@ -55,7 +55,7 @@ li{
 }
 
 .game.features{
-	width: 70px;
+	width: 83px;
 	height: 600px;
 	top: 44px;
 	right: 4px;
@@ -300,7 +300,7 @@ body {
 		width: var(--width);
 		height: 300px;
 
-		left: 70px;
+		left: 80px;
 		top: 3077px;
 	}
 	.url{
